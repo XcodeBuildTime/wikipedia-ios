@@ -9,7 +9,7 @@ class ShareAFactActivityTextItemProvider: UIActivityItemProvider {
         self.text = text
         self.articleTitle = articleTitle
         self.articleURL = articleURL
-        super.init(placeholderItem: defaultRepresentation)
+        super.init(placeholderItem: "")
     }
     
     override var item: Any {
